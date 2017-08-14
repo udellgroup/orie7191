@@ -1,0 +1,77 @@
+# jemdoc: menu{MENU}{about.html}, footer, doincludes, analytics{UA-18940040-3}
+= ORIE 4741: About
+[http://people.orie.cornell.edu/mru8 Professor Madeleine Udell], [http://www.cornell.edu Cornell University]
+
+# == Course description
+
+# Modern data sets, whether collected by scientists, engineers, physicians, bureaucrats, financiers, or tech billionaires, are often big, messy, and extremely useful. This course addresses scalable robust methods for learning from big messy data. We will cover techniques for learning with data that is messy --- consisting of measurements that are continuous, discrete, boolean, categorical, or ordinal, or of more complex data such as graphs, texts, or sets, with missing entries and with outliers --- and that is big --- which means we can only use algorithms whose complexity scales linearly in the size of the data. We will cover techniques for cleaning data, supervised and unsupervised learning, finding similar items, model validation, and feature engineering. The course will culminate in a final project in which students extract useful information from a big messy data set.
+
+# *Prerequisites:* Familiarity with linear algebra and matrix notation, a modern scripting language (such as Python, Matlab, Julia, R), and basic complexity and $O(n)$ notation.
+
+== Who is this class for?
+
+This is a masters level class in Operations Research and Information Engineering.
+We expect that the class will also be
+suitable for advanced undergraduates, and for early-year PhD students eager for some practical data science experience.
+The class may be of interest to students in CS, IS, ECE, Statistics, Economics, and other disciplines;
+however, ORIE students will have enrollment priority if the class is oversubscribed.
+
+== Course requirements and grading
+
+- *Homework (30%):* bi-weekly (or so) homework assignments
+- *Project (40%):* one final data analysis project
+- *Exams (20%):* one midterm exams and a final exam
+- *Participation (10%):* students are expected to submit one question or comment on each lecture on [piazza.com/cornell/fall2016/orie4741/home piazza] after each lecture.
+
+These weights are approximate; we reserve the right to change them later.
+
+== Textbooks and readings
+
+We will *not* require students to purchase any textbook;
+the information you need to know will be posted as lecture slides or notes.
+However, we heartily recommend all of the following, and will be drawing on ideas from many of these:
+
+- (free online) [http://infolab.stanford.edu/~ullman/mmds/book.pdf Mining of Massive Datasets], Leskovec, Rajaraman, and Ullman
+- (free online) [http://www.cs.cornell.edu/jeh/bookJan25_2016.pdf Foundations of Data Science], Hopcroft and Kannan
+- [http://amlbook.com/ Learning from Data], Abu-Mostafa, Magdon-Ismail, and Lin
+- [http://www.amazon.com/Foundations-Machine-Learning-Adaptive-Computation/dp/026201825X Foundations of Machine Learning], Mohri, Rostamizadeh, and Talwalkar
+- [http://aima.cs.berkeley.edu/ Artificial Intelligence], Russell and Norvig
+- [https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738 Pattern Recognition and Machine Learning], Bishop
+- [https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130 Python Machine Learning], Raschka
+
+For a refresher on linear algebra, we recommend Appendix A of [https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf Convex Optimization] by Boyd and Vandenberghe;
+or for a longer, but very thorough, applied treatment, try the book on [http://stanford.edu/class/ee103/mma.html Vectors, Matrices and Least Squares] by the same authors.
+
+== Software
+
+This class will use the [julialang.org Julia] programming language:
+all examples and code that we discuss in class or refer to in the homework will be written in Julia.
+Julia is a high-level, high-performance dynamic programming language for technical computing,
+with syntax that is familiar to users of other technical computing environments (including Matlab and scipy/numpy).
+It provides a sophisticated compiler, distributed parallel execution, numerical accuracy, and an extensive mathematical function library.
+
+Students may complete assignments using either Julia or Python (or both).
+We will be releasing numerical portions of homeworks (and collecting completed homeworks) as [http://jupyter.org/ Jupyter notebooks].
+This format makes it easy to embed plots, code and text in the same document, and to switch between Julia and Python.
+
+If you use Julia, we recommend starting out with version Julia 0.4.6 on [https://www.juliabox.com/ JuliaBox],
+and installing locally when version 0.5.0 is officially released in a few weeks.
+If you have trouble running Julia or run into errors, you can ask questions on the
+[https://groups.google.com/forum/\#!forum/julia-users Julia Users Google Group];
+similarly, if you find a JuliaBox problem, use the
+[https://groups.google.com/forum/\#!forum/julia-box JuliaBox Google Group].
+
+If you use Python, we recommend installing it via the [https://www.continuum.io/downloads Anaconda] software stack,
+which comes with the numerical and plotting libraries you'll need (scipy, numpy, and matplotlib),
+and using Python version 2.7.
+
+Resources for learning Julia:
+- [https://learnxinyminutes.com/docs/julia/ quick intro to Julia syntax] (by [http://blog.leahhanson.us/ Leah Hanson])
+- [http://math.mit.edu/~stevenj/Julia-cheatsheet.pdf cheat sheet] (by [http://math.mit.edu/~stevenj/ Steven Johnson])
+- [http://julialang.org/learning/ many more resources] (including tutorial, videos, books, etc)
+
+== Relation to other courses
+
+- Compared to [http://www.cs.cornell.edu/Courses/cs4786/2015sp CS 4786/5786: Machine Learning for Data Science],
+we will concentrate more on supervised learning problems (regression and classification),
+and on how to handle missing and messy data in a supervised context.

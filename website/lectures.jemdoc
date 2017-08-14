@@ -1,0 +1,63 @@
+# jemdoc: menu{MENU}{lectures.html}, footer, doincludes, analytics{UA-18940040-3}
+= ORIE 4741: Lectures
+[http://people.orie.cornell.edu/mru8 Professor Madeleine Udell], [http://www.cornell.edu Cornell University]
+
+Slides and notes for lectures will be posted here each week.
+Topics may change based on student interest.
+
+== Course topics
+
+- Introduction
+  -- [lectures/intro.pdf Introduction]
+  -- [lectures/eda.pdf Exploratory data analysis]
+	-- Demo: [https://github.com/ORIE4741/demos/blob/master/eda.ipynb exploratory data analysis]
+	-- [lectures/perceptron.pdf The perceptron algorithm]
+	-- [lectures/generalization.pdf Generalization]
+- Linear models
+	-- [lectures/linear.pdf Linear regression] # and GD and QR
+	-- [lectures/feature_engineering.pdf Feature engineering and overfitting]
+	-- [lectures/underdetermined_lsq.pdf Underdetermined least squares] # and quadratic regularization
+	-- [lectures/bootstrap.pdf Cross validation and bootstrap]
+	-- Demo: [https://github.com/ORIE4741/demos/blob/master/Linear%20models.ipynb Linear models]
+	-- Demo: [https://github.com/ORIE4741/demos/blob/master/Gradient%20descent.ipynb Gradient descent]
+	-- Demo: [https://github.com/ORIE4741/demos/blob/master/QR.ipynb QR decomposition]
+	-- Demo: [https://github.com/ORIE4741/demos/blob/master/SVD.ipynb Singular value decomposition]
+	-- Demo: [https://github.com/ORIE4741/demos/blob/master/Crime.ipynb Preprocessing crime data set]
+	-- Demo: [https://github.com/ORIE4741/demos/blob/master/Predicting%20crime.ipynb Predicting crime]
+- Regularization for messy features
+	-- [lectures/regularization.pdf Regularization and interpretations]
+	-- [lectures/proxgrad.pdf Optimization: proximal gradient method]
+	-- Demo: [https://github.com/ORIE4741/demos/blob/master/RegularizedRegression.ipynb Regularized Regression]
+- [lectures/losses.pdf Loss functions] for messy labels
+	-- Logistic regression and Support Vector Machines (SVMs)
+	-- Multiclass and ordinal regression
+	-- Optimization: proximal subgradient
+- [lectures/unsupervised.pdf Unsupervised learning]
+	-- Missing data and PCA
+	-- Sparse PCA, NNMF, k-means
+	-- Optimization: AM and PALM
+- Learning from prototypes
+	-- Nearest neighbors
+	-- Smoothing
+	# -- Nearest neighbors at scale: LSH
+  -- [lectures/spectral.pdf Graphs and networks]
+	# -- Text
+- Advanced topics
+  -- [lectures/limits.pdf Limitations of predictive modeling]
+	#-- Parallelism paradigms
+	#-- Data streams
+	#-- Theory of generalization
+	# Dimensionality reduction techniques for categorical data/feature engineering with a large number of categorical parameters; feature hashing; dealing with data that extends beyond memory limits
+	# decision trees and random forests
+  # model averaging (bagging)
+  # boosting
+
+== Other resources
+
+- Review/overview
+  -- [lectures/review_linear.pdf Linear models] (midterm review)
+  -- [lectures/review_final.pdf Learning with big messy data] (final review)
+- Julia
+	-- Demo tutorial: [https://github.com/ORIE4741/demos/blob/master/Julia%20Syntax%20Tutorial.ipynb Julia syntax]
+- GitHub
+	-- Demo tutorial: [https://github.com/ORIE4741/demos/blob/master/GitHub%20Tutorials.ipynb Github basics]

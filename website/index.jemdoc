@@ -1,0 +1,38 @@
+# jemdoc: menu{MENU}{index.html}, footer, doincludes, analytics{UA-18940040-3}
+= ORIE 4741: Learning with Big Messy Data
+[http://people.orie.cornell.edu/mru8 Professor Madeleine Udell], [http://www.cornell.edu Cornell University]
+
+== Logistics
+
+- *Where:* 165 Olin Hall
+- *When:*
+  - Class on Tuesday and Thursday 10:10am -- 11:25am.
+  - Discussion section on Monday 10:10am--11am or Friday 1:25pm -- 2:15pm.
+  (Pick one; the Monday session repeats the previous Friday session.)
+- *Discussion forum:* [https://piazza.com/cornell/fall2016/orie4741/home Piazza]. Sign up [https://piazza.com/cornell/fall2016/orie4741 here].
+
+== Overview
+
+Modern data sets, whether collected by scientists, engineers, physicians, bureaucrats, financiers, or tech billionaires, are often big, messy, and extremely useful. This course addresses scalable robust methods for learning from big messy data. We will cover techniques for learning with data that is messy --- consisting of measurements that are continuous, discrete, boolean, categorical, or ordinal, or of more complex data such as graphs, texts, or sets, with missing entries and with outliers --- and that is big --- which means we can only use algorithms whose complexity scales linearly in the size of the data. We will cover techniques for cleaning data, supervised and unsupervised learning, finding similar items, model validation, and feature engineering. The course will culminate in a final project in which students extract useful information from a big messy data set.
+
+*Prerequisites:* Familiarity with linear algebra and matrix notation, a modern scripting language (such as Python, Matlab, Julia, R), and basic complexity and O(n) notation.
+More formally, we strongly recommend
+- Linear Algebra (MATH 2940 or equivalent)
+- Probability Theory (ENGRD 2700 or equivalent)
+- Programming (ENGRD/CS 2110 or equivalent)
+#- Discrete Math (CS 2800 or equivalent recommended)
+
+# probability theory (BTRY 3080, ECON 3130, MATH 4710, or strong performance in ENGRD 2700 or equivalent); linear algebra (MATH 2940 or equivalent); CS2110 or equivalent programming proficiency.
+
+Students familiar with these prerequisites in past years found that
+homework assignments took about about ten hours a week.
+Students without these prerequisites found that homework assignments
+took up to thirty hours a week as they caught up on background knowledge.
+Hence if you are tempted to ignore these prerequisites,
+please make sure you can afford to spend thirty hours a week on this class.
+
+== Announcements
+
+# - Please fill out the [http://tinyurl.com/joprtkr course survey] if you'd like to take the class.
+# - We have reached the enrollment limit for ORIE 4741.
+# To be added to the wait list, contact [cjh6@cornell.edu Cindy Jay].

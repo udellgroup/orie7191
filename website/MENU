@@ -1,0 +1,28 @@
+ORIE 4741
+
+    home                [index.html]
+    about               [about.html]
+    contact             [contact.html]
+
+course materials
+
+    lectures            [lectures.html]
+    demos               [https://github.com/ORIE4741/demos]
+#    reading            [reading.html]
+#    code                [code.html]
+
+assignments
+
+	homework            [homework.html]
+	projects            [projects.html]
+	exams				        [exams.html]
+	participation       [participate.html]
+
+links
+
+	class roster        [https://classes.cornell.edu/browse/roster/FA16/class/ORIE/4741]
+	piazza              [http://piazza.com/cornell/fall2016/orie4147/home]
+	julia               [http://julialang.org/]
+	juliabox            [https://www.juliabox.com/]
+	jupyter             [http://jupyter.org/]
+	anaconda            [https://www.continuum.io/downloads]

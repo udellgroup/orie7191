@@ -1,0 +1,41 @@
+# jemdoc: menu{MENU}{homework.html}, footer, doincludes, analytics{UA-18940040-3}
+= ORIE 4741: Homework
+[http://people.orie.cornell.edu/mru8 Professor Madeleine Udell], [http://www.cornell.edu Cornell University]
+
+== Collaboration policy
+
+The goal of the homework is to help you practice the skills that you’ll use later in this class and - we hope! - later in life. Homework carries weight for your grade to encourage you to spend time on it and think deeply about it. Our collaboration policy is geared to make sure you can get the help you need, and so that by the time you turn in your work you understand what it’s about, how it works, and why it’s important.
+
+Students are allowed - and even encouraged - to collaborate on homework. But we ask that you
+
+. Give credit to the people who have helped you: please write on your homework the names of the people you worked with.
+. Give credit to the other resources that have helped you: please write on your homework the textbooks, notes, or web pages you found useful.
+. Write up your homework by yourself. That is, all of the text that you submit should be typed or hand-written by you.
+
+See [http://www.cs.cornell.edu/courses/cs6742/2011sp/handouts/ack-others.pdf Cornell's policy] for more details.
+
+If you’re not able to answer a homework question, but you show us the work that you performed to think about the question and to try to understand it, you will receive partial credit.
+
+== Grading
+
+- *Late homework assignments will not be accepted.* However, we /will/ drop your lowest homework grade. So you can still get a perfect score
+on the homework component of your grade even if you don't turn in one assignment, or don't answer all the questions on
+one assignment.
+- *Extra credit.*
+-- If you can think of an interesting homework question that would help students understand the material better, turn in that question (and a solution) as part of your homework. Questions we decide to use the next time the class is taught will receive extra credit worth up to half of a homework assignment.
+
+== Homework assignments and due dates
+
+Submit homework in one of two ways:
+- hardcopy: in the ORIE 4741 box across from the administrative offices on the second floor of Rhodes.
+- pdf and tex: on Blackboard (see above for extra credit option)
+
+Homework solutions can be found on Blackboard after the due date.
+Code and data for the homework can be found [https://github.com/ORIE4741/homework in our homework repo].
+
+#. [homework/hw0.pdf Homework 0], due 8-30-16
+#. [homework/hw1.pdf Homework 1], *extended: due 10am Monday 9-12-16*
+#. [homework/hw2.pdf Homework 2], *extended: due 10am Tuesday 9-27-16*
+#. [homework/hw3.pdf Homework 3], due 5pm Friday 10-14-16
+#. [homework/hw4.pdf Homework 4], due 5pm Saturday 11-5-16
+#. [homework/hw5.pdf Homework 5], due 10am Tuesday 11-29-16
