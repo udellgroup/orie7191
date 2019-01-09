@@ -1,4 +1,4 @@
-# **ORIE 7191: Topics in Optimization for Machine Learning**
+# ORIE 7191 Topics in Optimization for Machine Learning
 
 This reading course will explore modern challenges
 at the interface of continuous optimization and machine learning.
