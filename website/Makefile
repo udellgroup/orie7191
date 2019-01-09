@@ -1,8 +1,9 @@
-DOCS=index about contact lectures projects exams homework
+DOCS=index
 
 HDOCS=$(addsuffix .html, $(DOCS))
+MDOCS=$(addsuffix .md, $(DOCS))
 PHDOCS=$(HDOCS)
-SERVER=mru8@courses.cit.cornell.edu:~/coursewww/mru8/opt-reading/
+SERVER=mru8@courses.cit.cornell.edu:~/coursewww/mru8/orie7191/
 
 .PHONY : docs
 docs : $(PHDOCS)
@@ -12,11 +13,13 @@ update : $(PHDOCS)
 	@echo -n 'Syncing to server...'
 	rsync -avz --no-p *.css $(SERVER)
 	rsync -avz --no-p *.html $(SERVER)
-	rsync -avz --no-p eqs $(SERVER)
 	@echo ' done.'
 
-%.html : %.jemdoc MENU
-	python jemdoc.py -c jemdoc.conf -o $@ $<
+index.html : index.md
+	grip index.md > index.html
+
+index.md : syllabus.md
+	python add_links_from_bib.py syllabus.md reading.bib > index.md
 
 .PHONY : clean
 clean :
