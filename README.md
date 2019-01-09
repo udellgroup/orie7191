@@ -1,4 +1,4 @@
-# ORIE 7191 Topics in Optimization for Machine Learning
+# **ORIE 7191: Topics in Optimization for Machine Learning**
 
 This reading course will explore modern challenges
 at the interface of continuous optimization and machine learning.
@@ -37,16 +37,16 @@ by prior arrangement with the instructor.)
 
 Course grades have four components:
 
-* **Reviews** (30
-* **Quiz** (10
+* **Reviews** (.3): Students will write reviews of half of the papers we read for class and upload them to [CMT]().
+* **Quiz** (.1): Each class will begin with a two-question quiz to make sure students read the paper.
 Grading on this portion of the course will be nonlinear (eg, 0 points if fewer than X
-* **Present a paper** (30
+* **Present a paper** (.3): Students will each lead the discussion twice (or so), possibly in teams
 depending on course enrollment.
 The student leading the discussion will prepare a 30 minute presentation using slides,
 two true/false or multiple choice questions on the paper,
 and a class activity or questions for discussion.
 The presentations will be graded by peer review.
-* **Research project** (30
+* **Research project** (.3):
 The final research project should be on a topic with connections
 to both continuous optimization and machine learning.
 Projects can be in teams of up to two students except by
