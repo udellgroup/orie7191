@@ -101,9 +101,7 @@ of any putative solution relative to the true optimal solution.
 * [boumal2014manopt]
 * [boumal2016non] The non-convex Burer-Monteiro approach works on smooth semidefinite programs
 * [bhojanapalli2018smoothed] Smoothed analysis of BM factorization
-* finding local minima efficiently
-  * [lee2016gradient] GD only converges to minimizers
-  * [lee2017first] More generally, first order methods avoid saddle points
+* finding local minima efficiently: [lee2016gradient] shows GD only converges to minimizers (not saddle points), and [lee2017first] extends the result to other first order methods
 * [gunasekar2017implicit] Gradient descent on factored formulation of matrix completion implicitly regularized the nuclear norm
 * [bhojanapalli2016global] [ge2016matrix] The factored formulation of matrix completion from incoherent measurements has no spurious local minima
 * [ma2017implicit] Gradient descent (implicitly) imposes regularization for a wide variety of statistical models

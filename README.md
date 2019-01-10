@@ -98,9 +98,7 @@ of any putative solution relative to the true optimal solution.
 * [Boumal et al. 2014](http://www.jmlr.org/papers/volume15/boumal14a/boumal14a.pdf)
 * [Boumal, Voroninski, and Bandeira 2016](???) The non-convex Burer-Monteiro approach works on smooth semidefinite programs
 * [Bhojanapalli et al. 2018](???) Smoothed analysis of BM factorization
-* finding local minima efficiently
-* [Lee et al. 2016](http://www.jmlr.org/proceedings/papers/v49/lee16.pdf) GD only converges to minimizers
-* [Lee et al. 2017](https://arxiv.org/abs/1710.07406) More generally, first order methods avoid saddle points
+* finding local minima efficiently: [Lee et al. 2016](http://www.jmlr.org/proceedings/papers/v49/lee16.pdf) shows GD only converges to minimizers (not saddle points), and [Lee et al. 2017](https://arxiv.org/abs/1710.07406) extends the result to other first order methods
 * [Gunasekar et al. 2017](http://papers.nips.cc/paper/7195-implicit-regularization-in-matrix-factorization.pdf) Gradient descent on factored formulation of matrix completion implicitly regularized the nuclear norm
 * [Bhojanapalli, Neyshabur, and Srebro 2016](http://papers.nips.cc/paper/6271-global-optimality-of-local-search-for-low-rank-matrix-recovery.pdf) [Ge, Lee, and Ma 2016](http://papers.nips.cc/paper/6048-matrix-completion-has-no-spurious-local-minimum.pdf) The factored formulation of matrix completion from incoherent measurements has no spurious local minima
 * [Ma et al. 2017](https://arxiv.org/pdf/1711.10467.pdf) Gradient descent (implicitly) imposes regularization for a wide variety of statistical models
