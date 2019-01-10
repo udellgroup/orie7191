@@ -34,13 +34,18 @@ contact her by email at udell@cornell.edu to set up an appointment.
 
 Students are required to attend class, with at most two absences.
 (Up to two classes may also be attended remotely via [Zoom](https://zoom.us/j/7221862735)
-by prior arrangement with the instructor.)
+by prior arrangement with the instructor.
+Students at Cornell Tech may attend all classes remotely.)
 
-Course grades have four components (weights in parentheses):
+Course grades have four components (weights in parentheses for 3 credit option):
 
-* **Reviews** (.3): Students will write reviews of half of the papers we read for class and upload them to [CMT]().
-* **Quiz** (.1): Each class will begin with a two-question quiz to make sure students read the paper.
-Grading on this portion of the course will be nonlinear (eg, 0 points if too few quiz questions are answered correctly).
+* **Reviews** (.3): Students will write reviews
+of some (about half) of the papers we read for class
+and upload them to CMT. %[CMT]().
+* **Quiz** (.1): Most classes will begin with a two-question quiz.
+The questions will be easy to answer if you read the paper.
+Grading on this portion of the course will be nonlinear
+(eg, 0 points if too few quiz questions are answered correctly).
 * **Present a paper** (.3): Students will each lead the discussion twice (or so), possibly in teams
 depending on course enrollment.
 The student leading the discussion will prepare a 30 minute presentation using slides,
@@ -55,6 +60,12 @@ special advance permission from the instructor.
 Students will prepare an initial project proposal, midterm report, and final report
 on the project, and will make an in-class presentation.
 Research projects can (and should!) advance your PhD research.
+
+Students taking the class for 1 credit will be required
+to write fewer reviews,
+present only one paper,
+and will not be required to complete the research project.
+The quiz requirement will be the same.
 
 # Schedule
 
