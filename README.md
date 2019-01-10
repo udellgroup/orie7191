@@ -39,7 +39,7 @@ Course grades have four components (weights in parentheses):
 
 * **Reviews** (.3): Students will write reviews of half of the papers we read for class and upload them to [CMT]().
 * **Quiz** (.1): Each class will begin with a two-question quiz to make sure students read the paper.
-Grading on this portion of the course will be nonlinear (eg, 0 points if fewer than X
+Grading on this portion of the course will be nonlinear (eg, 0 points if too few quiz questions are answered correctly).
 * **Present a paper** (.3): Students will each lead the discussion twice (or so), possibly in teams
 depending on course enrollment.
 The student leading the discussion will prepare a 30 minute presentation using slides,
