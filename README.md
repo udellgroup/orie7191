@@ -35,7 +35,7 @@ Students are required to attend class, with at most two absences.
 (Up to two classes may also be attended remotely via [Zoom](https://zoom.us/j/7221862735)
 by prior arrangement with the instructor.)
 
-Course grades have four components:
+Course grades have four components (weights in parentheses):
 
 * **Reviews** (.3): Students will write reviews of half of the papers we read for class and upload them to [CMT]().
 * **Quiz** (.1): Each class will begin with a two-question quiz to make sure students read the paper.
