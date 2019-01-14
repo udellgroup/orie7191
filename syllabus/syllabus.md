@@ -25,10 +25,8 @@ in addition to written reports.
 
 # Logistics
 
-**When:** 11:40 - 12:55 TTh
-**Where:** Hollister Hall 372 or via [Zoom](https://zoom.us/j/7221862735)
-
-Links:
+* **When:** 11:40 - 12:55 TTh
+* **Where:** Hollister Hall 372 or via [Zoom](https://zoom.us/j/7221862735)
 * [Quiz](https://goo.gl/forms/yOKLIbzP68M0qac52) (same link for all quizzes)
 * [CMT](https://cmt3.research.microsoft.com/ORIE7191S2019) for paper reviews and peer reviews
 * [Slack](https://join.slack.com/t/orie7191/signup) (use your cornell.edu address)
