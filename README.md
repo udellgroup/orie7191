@@ -3,10 +3,12 @@
 This reading course will explore modern challenges
 at the interface of continuous optimization and machine learning.
 Our inquiry will be guided by two motivating questions:
+
 1) Can we use classical ideas in optimization to better understand
 (and improve) algorithms for challenging problems in machine learning?
 2) How can modern insights in machine learning guide the design of
 new and improved methods for optimization?
+
 Topics may include low rank optimization,
 generalization in deep learning,
 regularization (implicit and explicit) for deep learning,
@@ -20,9 +22,15 @@ which will constitute a majority of the grade.
 Students will deliver short presentations on their projects in class
 in addition to written reports.
 
-# Contact
+# Logistics
 
-Join our workspace on [slack](https://join.slack.com/t/orie7191/signup) (use your cornell.edu address)
+**When:** 11:40 - 12:55 TTh
+**Where:** Hollister Hall 372 or via [Zoom](https://zoom.us/j/7221862735)
+
+Links:
+* [Quiz](https://goo.gl/forms/yOKLIbzP68M0qac52) (same link for all quizzes)
+* [CMT](https://cmt3.research.microsoft.com/ORIE7191S2019) for paper reviews and peer reviews
+* [Slack](https://join.slack.com/t/orie7191/signup) (use your cornell.edu address)
 for general questions and comments.
 
 Office hours will be chosen via an in-class poll.
@@ -140,6 +148,7 @@ Can we improve deep learning using more sophisticated ideas from optimization?
 * Gradient science blog posts on [batch normalization](https://gradientscience.org/batchnorm/) attempt to explain its success as a change of geometry
 * [Neyshabur, Salakhutdinov, and Srebro 2015](???) Why not optimize in a geometry invariant to rescalings of the parameters that don't affect the output?
 * [Wilson et al. 2017](???) Adaptive optimization methods (which learn the geometry from the iterates) can be worse than useless
+* Second order methods for training deep nets [Nocedal] [Mahoney]
 
 Learn better with fewer parameters
 * [Chen et al. 2018](http://papers.nips.cc/paper/7892-neural-ordinary-differential-equations.pdf) Treat number of layers as a continuous parameter (!)
