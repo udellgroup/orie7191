@@ -127,15 +127,20 @@ of any putative solution relative to the true optimal solution.
 
 ## Optimization for Deep Learning
 
-Is optimization enough? Is SGD necessary to provide implicit regularization?
-* [Dauphin et al. 2014](https://papers.nips.cc/paper/5486-identifying-and-attacking-the-saddle-point-problem-in-high-dimensional-non-convex-optimization.pdf) Is the quality of a critical point proportional to the number of directions of positive curvature?
+What properties of deep nets make them easy or hard to optimize?
+* [Dauphin et al. 2014](https://papers.nips.cc/paper/5486-identifying-and-attacking-the-saddle-point-problem-in-high-dimensional-non-convex-optimization.pdf) Is the quality of a critical point proportional to the number of directions of   positive curvature?
 * [Zhang et al. 2016](https://arxiv.org/abs/1611.03530) (Not very) deep nets can exactly fit noise. So why do they generalize well for real data?
+* [Hao Li and 2017](http://arxiv.org/abs/1712.09913) Visualizing the loss landscape of neural nets. Certain architectures are dramatically more "convex" than others!
+* [D Alberti et al. 2018](https://arxiv.org/pdf/1810.08591.pdf) How does the depth and width of a deep neural net (and the associated difficulties with optimization) affect the bias variance tradeoff?
+* [Behnam Neyshabur et al. 2019](???) Maybe deeps nets aren't as overparametrized as they seem
+* [Ian Goodfellow, Oriol Vinyals, and Andrew Saxe 2015](http://arxiv.org/abs/1412.6544) The loss surface looks convex on the path from the initial to final SGD iterate
+
+Is optimization enough? Is SGD necessary to provide implicit regularization?
 * [Hardt, Recht, and Singer 2015](???) Stability of SGD means that good solutions found quickly should generalize well
 * [Keskar et al. 2016](???) Large batch training and sharp minima
 * [Hoffer, Hubara, and Soudry 2017](???) A proposal to decrease the generalization gap when using large batch sizes, proposing different explanation than [Keskar et al. 2016](???)
 * [Rahimi and Recht 2009](http://papers.nips.cc/paper/3495-weighted-sums-of-random-kitchen-sinks-replacing-minimization-with) + [Rahimi Test of Time Talk at NeurIPS 2017](https://www.youtube.com/watch?v=Qi1Yry33TQE)
 * [Kawaguchi, Kaelbling, and Bengio 2017](https://arxiv.org/abs/1710.05468) Generalization in deep learning
-* [Behnam Neyshabur et al. 2019](???) Maybe deeps nets aren't as overparametrized as they seem
 * [Neyshabur et al. 2017](http://papers.nips.cc/paper/7176-exploring-generalization-in-deep-learning.pdf) Do (particular) optimization algorithms implicitly regularize the solution found?
 * [Gunasekar et al. 2018](???) Studies the same question as above, with new theoretical results
 * [Nacson et al. 2018](https://arxiv.org/abs/1803.01905) Studies the same question as above in a simpler case

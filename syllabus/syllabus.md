@@ -133,15 +133,20 @@ of any putative solution relative to the true optimal solution.
 
 ## Optimization for Deep Learning
 
-Is optimization enough? Is SGD necessary to provide implicit regularization?
-  * [dauphin2014identifying] Is the quality of a critical point proportional to the number of directions of positive curvature? % NB has since been discredited (?)
+What properties of deep nets make them easy or hard to optimize?
+  * [dauphin2014identifying] Is the quality of a critical point proportional to the number of directions of   positive curvature? % NB has since been discredited (?)
   * [zhang2016understanding] (Not very) deep nets can exactly fit noise. So why do they generalize well for real data?
+  * [li2018visualizing] Visualizing the loss landscape of neural nets. Certain architectures are dramatically more "convex" than others!
+  * [Alberti2018AMT] How does the depth and width of a deep neural net (and the associated difficulties with optimization) affect the bias variance tradeoff?
+  * [neyshabur2018role] Maybe deeps nets aren't as overparametrized as they seem
+  * [goodfellow2015qualitatively] The loss surface looks convex on the path from the initial to final SGD iterate
+
+Is optimization enough? Is SGD necessary to provide implicit regularization?
   * [hardt2015train] Stability of SGD means that good solutions found quickly should generalize well
   * [keskar2016large] Large batch training and sharp minima % not yet read
   * [hoffer2017train] A proposal to decrease the generalization gap when using large batch sizes, proposing different explanation than [keskar2016large] % I don't understand this yet
   * [rahimi2009weighted] + [Rahimi Test of Time Talk at NeurIPS 2017](https://www.youtube.com/watch?v=Qi1Yry33TQE)
   * [kawaguchi2017generalization] Generalization in deep learning % haven't read yet
-  * [neyshabur2018role] Maybe deeps nets aren't as overparametrized as they seem
   * [neyshabur2017exploring] Do (particular) optimization algorithms implicitly regularize the solution found?
   * [gunasekar2018characterizing] Studies the same question as above, with new theoretical results
   * [nacson2018convergence] Studies the same question as above in a simpler case
