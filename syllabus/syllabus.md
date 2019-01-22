@@ -157,7 +157,7 @@ Can we improve deep learning using more sophisticated ideas from optimization?
 * Gradient science blog posts on [batch normalization](https://gradientscience.org/batchnorm/) attempt to explain its success as a change of geometry
 * [neyshabur2015path] Why not optimize in a geometry invariant to rescalings of the parameters that don't affect the output?
 * [wilson2017marginal] Adaptive optimization methods (which learn the geometry from the iterates) can be worse than useless
-* Second order methods for training deep nets [Nocedal] [Mahoney]
+* Can we use second order methods for training deep nets? Proposals include [Bollapragada2016ExactAI] and  [Yao2018LargeBS]
 
 Learn better with fewer parameters
   * [chen2018neural] Treat number of layers as a continuous parameter (!)

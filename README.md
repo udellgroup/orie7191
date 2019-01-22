@@ -151,7 +151,7 @@ Can we improve deep learning using more sophisticated ideas from optimization?
 * Gradient science blog posts on [batch normalization](https://gradientscience.org/batchnorm/) attempt to explain its success as a change of geometry
 * [Neyshabur, Salakhutdinov, and Srebro 2015](???) Why not optimize in a geometry invariant to rescalings of the parameters that don't affect the output?
 * [Wilson et al. 2017](???) Adaptive optimization methods (which learn the geometry from the iterates) can be worse than useless
-* Second order methods for training deep nets [Nocedal] [Mahoney]
+* Can we use second order methods for training deep nets? Proposals include [Raghu Bollapragada, Richard H. Byrd, and Jorge Nocedal 2016](https://www.semanticscholar.org/paper/Exact-and-Inexact-Subsampled-Newton-Methods-for-Bollapragada-Byrd/d84c77ad09e76e1eba5c511696667582bda6c334) and  [Zhewei Yao et al. 2018](https://arxiv.org/pdf/1810.01021.pdf)
 
 Learn better with fewer parameters
 * [Chen et al. 2018](http://papers.nips.cc/paper/7892-neural-ordinary-differential-equations.pdf) Treat number of layers as a continuous parameter (!)
@@ -161,7 +161,7 @@ Learn better with fewer parameters
 
 Other interesting ideas connecting optimization and deep learning
 * [Lin et al. 2018](http://papers.nips.cc/paper/7423-pacgan-the-power-of-two-samples-in-generative-adversarial-networks.pdf) Mode collapse in GANs implies network does not generalize; this paper proposes a fix
-* [Armin Askari and 2018](http://arxiv.org/abs/1805.01532) Reformulate DNNs as a biconvex problem and use ADMM
+* [Armin Askari et al. 2018](http://arxiv.org/abs/1805.01532) Reformulate DNNs as a biconvex problem and use ADMM
 
 
 ## (Deep) Learning Regularizers
