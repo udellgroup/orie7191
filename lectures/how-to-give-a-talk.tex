@@ -1,0 +1,290 @@
+\documentclass[presentation,xcolor={usenames,dvipsnames}]{beamer}
+
+% figures
+\newcommand{\home}{.}
+\newcommand{\figures}{\home/figures}
+\input formatting.tex
+\input defs.tex
+
+% \mode<handout>
+% %\mode<presentation>
+{
+\usetheme{default}
+}
+\setbeamertemplate{footline}[frame number]
+
+\bibliographystyle{alpha}
+
+\title{ORIE 7191: Optimization for Machine Learning\\[2ex]
+       How to Give a Talk}
+
+\date{\textcolor{blue}{\today}}
+\author{Professor Udell \\[1ex]
+Operations Research and Information Engineering \\
+Cornell}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\section{How to Give a Talk}
+
+\begin{frame}{Tell a story}
+
+\bit
+\item what's the problem?
+\item preview your result
+\item what solutions have others tried?
+\item how does your idea work? and how is it different from previous work?
+\item gory details / theory / how it works
+\item applications / experiments / numerical evidence
+\item now what?
+\eit
+
+\end{frame}
+
+\begin{frame}{Inspiration for this meta-talk: Heilmeier Catechism}
+
+Heilmeier (DARPA director in 1950's) taught that grant proposals should include:
+\bit
+\item What are you trying to do? Articulate your objectives using absolutely no jargon.
+\item How is it done today, and what are the limits of current practice?
+\item What is new in your approach and why do you think it will be successful?
+\item Who cares? If you are successful, what difference will it make?
+\item What are the risks? How much will it cost? How long will it take?
+\item What are the mid-term and final ``exams'' to check for success?
+\eit
+for a talk, switch all these to the past tense
+
+\end{frame}
+
+\begin{frame}{What's the problem?}
+
+kinds of problem
+\bit
+\item a real problem (whose?)
+\item an ``open'' problem (why does it matter?)
+\eit
+
+pro tips:
+\bit
+\item you'd better ``solve'' the problem by the end of the talk\ldots
+\item pictures help grab attention
+\eit
+
+\end{frame}
+
+\begin{frame}{Preview your result}
+
+state your contribution
+\bit
+\item so audience understands what you did (and now can decide to pay attention or not)
+\item maybe a theorem, maybe a picture, maybe a sentence or two
+\item might require introducing some key definitions
+\eit
+
+pro tips:
+\bit
+\item leave caveats for later (but mention now if they're major or minor caveats)
+\item no one will listen any more if this part is confusing
+\eit
+
+\end{frame}
+
+\begin{frame}{What solutions have others tried?}
+
+why compare to related work?
+\bit
+\item shows audience how hard the problem is
+\item helps audience understand what you did (and what you didn't do)
+\item keeps your colleagues feeling collegial
+\eit
+
+pro tips:
+\bit
+\item cite all authors by name if $\leq 3$ authors
+\item maybe:
+\bit
+\item use your initial instead of name (eg, Kallus and U 2018)
+\item bold your name (eg, Kallus and \textbf{Udell} 2018)
+\eit
+\eit
+
+\end{frame}
+
+\begin{frame}{How does your idea work?}
+
+\bit
+\item this section is usually longest
+\item divide into subsections to explain parts of your approach
+\item by the end, the audience should understand \emph{why} your idea works
+\item use \emph{as little} technical machinery as possible to make that happen
+\item provide intuition
+\eit
+
+pro tips:
+\bit
+\item provide quick high level overview \emph{and} details
+\item so non-experts \emph{and} experts understand how it works
+\item imagine the first year PhD student in the audience
+\eit
+
+\end{frame}
+
+\begin{frame}{Gory details}
+
+\bit
+\item now you can impress people and lose them
+\item make it clear you have technical chops
+\item make the experts think you're smart
+\item but none of this matters
+\item because the audience already understands the important ideas
+\eit
+
+pro tips:
+\bit
+\item omit this part from a public talk
+\item possibly also omit from a colloquium
+\item definitely include in a job talk
+\item probably include for this class, to build endurance
+\item you can skip this if your talk is running over
+\eit
+
+\end{frame}
+
+\begin{frame}{Experiments}
+
+\bit
+\item prove that your ideas work
+\item show that they yield a useful solution
+\item and that they actually solve the problem
+\eit
+
+pro tips:
+\bit
+\item ask for people to restore their attention (after gory details)
+\item make experiment slides self-contained
+\bit
+\item state experimental settings, label axes and curves clearly, \ldots
+\eit
+\eit
+
+\end{frame}
+
+\begin{frame}{Know your audience}
+
+\bit
+\item imagine your audience
+\bit
+\item what do they know already? what will they find surprising?
+\item often helps to imagine writing the talk for \emph{one particular person} who you know well
+\item while giving the talk, look at the person whose face is giving feedback
+\item (while listening to a talk, \emph{be} the person giving feedback)
+\eit
+
+\item it's ok to lose (some of) your audience
+\bit
+\item but you should plan for \emph{who} you'll lose and \emph{when} you'll lose them
+\item generally, everyone should understand everything except for the ``gory details''
+\item afterwards, tell people when to start paying attention again
+\eit
+
+\eit
+
+\end{frame}
+
+\begin{frame}{Concluding}
+
+\bit
+\item state conclusions
+\item state research directions
+\item provide references
+\item ask for questions
+\eit
+
+\end{frame}
+
+\begin{frame}{Style}
+
+technology
+\bit
+\item \LaTeX / beamer presentations are common in Optimization
+\item powerpoint / keynote are more common in other parts of Machine learning
+\item google slides for collaborative development
+\item theorists can make slides that contain only words, equations, and plots
+\item systems presentations usually come with fancy pictures and animations
+\eit
+
+length
+\bit
+\item rule of thumb: one minute per slide
+\item more if there are lots of pictures
+\item less if there's lots of math to explain
+\item have sections you can cut easily: gory details, applications
+\item know at what time you should arrive at each section
+\eit
+\end{frame}
+
+\begin{frame}{Style}
+
+words
+\bit
+\item don't overwhelm the audience with reading
+\item pick a convention and stick to it
+\bit \item capitalization, punctuation, phrases vs sentences, etc \eit
+\eit
+
+equations
+\bit
+\item define your terms
+\item use as few terms as possible
+\item use words instead of symbols where possible
+\eit
+\end{frame}
+
+\begin{frame}{Style}
+
+animations
+\bit
+\item have semantic meaning
+\eit
+
+delivery
+\bit
+\item speak slowly and clearly
+\item require the audience to ask questions
+\item show that you're a human (humor, look at audience, ask questions, stop to think)
+\item get ready for improvisation!
+\eit
+
+\end{frame}
+
+\section{How to write a review}
+
+\begin{frame}{Reviews}
+
+\bit
+\item summarize the paper in your own words
+\item situate relative to related work
+\item what's good
+\item high level criticisms and major flaws
+\item detailed line-by-line comments
+\eit
+
+\end{frame}
+
+\section{Homework}
+
+\begin{frame}{Homework}
+
+\bit
+\item register
+\item sign up for slack
+\item mark 3 papers you'd like to present on \href{https://docs.google.com/spreadsheets/d/1eSJn0_ANEXfOsZZrYwHoQ6F00FKBLz4olbKVtOLoE40/edit#gid=93392279}{paper selection google doc}
+\eit
+
+\end{frame}
+
+\end{document}

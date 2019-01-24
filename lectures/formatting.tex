@@ -1,0 +1,62 @@
+% links
+% \definecolor{links}{HTML}{2A1B81}
+% \hypersetup{colorlinks,linkcolor=blue,urlcolor=blue}
+
+% Fonts.
+%\usefonttheme{serif}
+%\usepackage{palatino}
+% \usepackage{mathpazo}
+% \usepackage{eulervm}
+%\usepackage[T1]{fontenc}
+
+% show one fewer toc level
+\addtocounter{tocdepth}{-1}
+
+% Template changes.
+%\iffalse % Don't show TOC between sections
+\let\oldsection\section
+\renewcommand{\section}[1]{\oldsection{#1}
+\begin{frame}
+    \frametitle{Outline}
+    \tableofcontents[currentsection,currentsubsection]
+\end{frame}
+}
+%\fi
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamersize{text margin left=1.2cm, text margin right=1.2cm}
+%\usecolortheme[rgb={0.6,0,0}]{structure}
+
+% \setbeamertemplate{frametitle} {
+%   \vskip 0.65cm
+%   \hskip -0.4cm
+%   {\large\bf \insertframetitle}
+% }
+
+\setbeamertemplate{frametitle} {
+  \begin{center}
+  {\large\bf \insertframetitle}
+  \end{center}
+}
+
+\setbeamertemplate{itemize items}[default]
+
+\setlength{\parskip}{4pt}
+
+\newcommand\footlineon{
+  \setbeamertemplate{footline} {
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,leftskip=.8cm,rightskip=.6cm]{structure}
+      \footnotesize \insertsection
+      \hfill
+      {\insertframenumber}
+    \end{beamercolorbox}
+    \vskip 0.45cm
+  }
+}
+\footlineon
+
+\setbeamertemplate{blocks}[rounded] %[shadow=false]
+\setbeamercolor{block title}{fg=white,bg=blue!50!black}%
+\setbeamercolor{block body}{fg=black,bg=blue!5!white}%
+
+\renewcommand{\emph}{\textbf}

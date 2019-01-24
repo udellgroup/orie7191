@@ -121,6 +121,7 @@ of any putative solution relative to the true optimal solution.
 * finding local minima efficiently: [lee2016gradient] shows GD only converges to minimizers (not saddle points), and [lee2017first] extends the result to other first order methods
 * [gunasekar2017implicit] Gradient descent on factored formulation of matrix completion implicitly regularized the nuclear norm
 * [bhojanapalli2016global] [ge2016matrix] The factored formulation of matrix completion from incoherent measurements has no spurious local minima
+* [waldspurger2018rank] ...but only if the rank is high enough
 * [ma2017implicit] Gradient descent (implicitly) imposes regularization for a wide variety of statistical models
 %* cubic regularization?
 %* adding noise?
@@ -185,7 +186,7 @@ Other interesting ideas connecting optimization and deep learning
 * [recht2018tour] Reinforcement Learning: connections with continuous control.
 * Also consider [the blog posts on this topic](http://www.argmin.net/2018/06/25/outsider-rl/), which are even nicer to read
 % * [Post 10 (PID)](http://www.argmin.net/2018/04/19/pid/) vs learning-to-learn literature on learning domain-specific opt methods
-* See also [Bertsimas 2018](http://web.mit.edu/dimitrib/www/RLbook.html) book on Reinforcement Learning and Optimal Control
+* See also [Bertsekas 2018](http://web.mit.edu/dimitrib/www/RLbook.html) book on Reinforcement Learning and Optimal Control
 
 ## Optimization for Trustworthy Machine Learning
 

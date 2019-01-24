@@ -17,7 +17,18 @@ def insert_links(mdfile, bib2str, outfile=sys.stdout):
 			line = re.sub(re.compile("<!--.*?-->",re.DOTALL ), "", line) # remove all single line html comments (/*COMMENT */) from string
 			# insert links
 			line_with_refs = re.sub("\[.*?\]", bib2str, line)
-			print(line_with_refs.strip())
+			outfile.write(line_with_refs.strip() + "\n")
+
+def print_papers_only(mdfile, bib2str, outfile=sys.stdout):
+	with open(mdfile, "r") as file:
+		for i,line in enumerate(file):
+			# remove comments
+			if line[0] == "%": continue                    # remove comment lines
+			line = re.sub(re.compile("%.*?\n" ), "", line) # remove all occurance singleline comments (% COMMENT\n ) from string
+			line = re.sub(re.compile("<!--.*?-->",re.DOTALL ), "", line) # remove all single line html comments (/*COMMENT */) from string
+			# print all papers found
+			for m in re.finditer("(\[.*?\])", line):
+				outfile.write(bib2str(m) + "\n")
 
 def extract_papers(bibfile):
 	papers = {}
@@ -96,6 +107,16 @@ def write_paper(paper, file):
 	# except:
 	# 	raise TypeError("Paper incorrectly formatted:\n"+str(paper))
 
+"""returns a string of the (short form) of authors' names + title of paper"""
+def format_paper(bibref, papers):
+	id = bibref.group(0)[1:-1] # exclude brackets
+	if id in papers.keys():
+		p = papers[id]
+		description = format_authors_short(p["author"]) + " " + p["year"] + ". " + p["title"]
+		return description
+	else:
+		return id
+
 def format_links(paper, link_types):
 	links = ""
 	for link in link_types:
@@ -111,6 +132,7 @@ def format_links(paper, link_types):
 			links += '<a href="' + paper[link] + '">[' + link + ']</a>'
 	return links
 
+"""Return a string of all authors' names"""
 def format_authors(string):
 	authorlist = string.split(" and ")
 	authors = [list(reversed(a.strip().strip("{").strip("}").split(", "))) for a in authorlist]
@@ -125,6 +147,7 @@ def format_authors(string):
 		authorstring = " and ".join(authors)
 	return authorstring
 
+"""Return a string of the authors' names, or the first author et al. if there are >3 authors"""
 def format_authors_short(string):
 	authorlist = string.split(" and ")
 	authors = [list(reversed(a.strip().strip("{").strip("}").split(", "))) for a in authorlist]
@@ -164,4 +187,5 @@ if __name__ == '__main__':
 	mdfile = sys.argv[1]
 	bibfile = sys.argv[2]
 	papers = extract_papers(bibfile)
-	insert_links(mdfile, lambda bibref: format_citation(bibref, papers))
+	# insert_links(mdfile, lambda bibref: format_citation(bibref, papers))
+	print_papers_only(mdfile, lambda bibref: format_paper(bibref, papers))

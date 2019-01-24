@@ -1,0 +1,206 @@
+% Packages
+\usepackage{pgffor}
+\usepackage{listings}
+\lstset{language=Matlab}
+
+% Notes
+\usepackage[usenames,dvipsnames]{xcolor}
+\definecolor{purple}{rgb}{0.3,0.0,.4}
+\newcommand{\mnote}[1]{\textcolor{purple}{\textbf{[MU: #1]}}}
+\definecolor{red}{rgb}{.5,0.0,0}
+\definecolor{blue}{rgb}{0,0.0,0.5}
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{[todo: #1]}}}
+
+% questions and answers
+\newcommand{\question}[1]{\textcolor{blue}{\textbf{Q:}} #1\\}
+\newcommand{\pquestion}[1]{\pause \textcolor{blue}{\textbf{Q:}} #1\\}
+\newcommand{\answer}[1]{\textcolor{blue}{\textbf{A:}} #1\\}
+\newcommand{\panswer}[1]{\pause \textcolor{blue}{\textbf{A:}} #1\\}
+
+\newcommand{\beas}{\begin{eqnarray*}}
+\newcommand{\eeas}{\end{eqnarray*}}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newcommand{\bit}{\begin{itemize}}
+\newcommand{\eit}{\end{itemize}}
+\newcommand{\bitt}{\begin{itemize}\setlength\itemsep{0em}} % tight spacing
+\newcommand{\ben}{\begin{enumerate}}
+\newcommand{\een}{\end{enumerate}}
+
+\newcommand{\ba}{\begin{array}}
+\newcommand{\ea}{\end{array}}
+\newcommand{\bbm}{\begin{bmatrix}}
+\newcommand{\ebm}{\end{bmatrix}}
+
+% text abbrevs
+\newcommand{\cf}{{\it cf.}}
+\newcommand{\eg}{{\it e.g.}}
+\newcommand{\ie}{{\it i.e.}}
+\newcommand{\etc}{{\it etc.}}
+
+\newcommand{\ones}{\mathbf 1}
+\newcommand{\zeros}{\mathbf 0}
+
+% std math stuff
+\newcommand{\reals}{{\mbox{\bf R}}}
+\newcommand{\integers}{{\mbox{\bf Z}}}
+\newcommand{\eqbydef}{\mathrel{\stackrel{\Delta}{=}}}
+\newcommand{\complex}{{\mbox{\bf C}}}
+\newcommand{\symm}{{\mbox{\bf S}}}  % symmetric matrices
+
+% lin alg stuff
+\newcommand{\Span}{\mbox{\textrm{span}}}
+\newcommand{\range}{\mbox{\textrm{range}}}
+\newcommand{\rank}{\mbox{\textrm{Rank}}}
+\newcommand{\Rank}{\mbox{\textrm{Rank}}}
+\newcommand{\nullspace}{{\mathcal {\bf nullspace}}}
+\newcommand{\tr}{\mathop{\bf tr}}
+\newcommand{\Tr}{\mathop{\bf tr}}
+\newcommand{\diag}{\mathop{\bf diag}}
+\newcommand{\lambdamax}{{\lambda_{\rm max}}}
+\newcommand{\lambdamin}{\lambda_{\rm min}}
+
+% probability stuff
+% \newcommand{\Expect}{\mathop{\mathbb E{}}}
+\newcommand{\Expect}{\mathbb E{}}
+\newcommand{\Prob}{\mathop{\mathbb P}}
+% \newcommand{\Expect}{\mathop{\bf E{}}}
+% \newcommand{\Prob}{\mathop{\bf Prob}}
+\newcommand{\erf}{\mathop{\bf erf}}
+\newcommand{\sign}{\mathop{\bf sign}}
+
+% convex analysis
+\newcommand{\co}{{\mathop {\bf Co}}}
+\newcommand{\dist}{\mathop{\bf dist{}}}
+\newcommand{\approxleq}{\mathrel{\smash{\makebox[0pt][l]{\raisebox{-3.4pt}{\small$\sim$}}}{\raisebox{1.1pt}{$<$}}}}
+\newcommand{\epi}{\mathop{\bf epi}}
+%\newcommand{\hypo}{\mathop{\bf hypo}}
+\newcommand{\bias}{\bf bias}
+\newcommand{\var}{\bf var}
+% \newcommand{\bias}{\mathop{\bf bias}}
+% \newcommand{\var}{\mathop{\bf var}}
+\newcommand{\vol}{\mathop{\bf vol}}
+\newcommand{\card}{\mathop{\bf card}}
+\newcommand{\conv}{\mathop{\bf conv}}
+\newcommand{\dom}{\mathop{\bf dom}}
+\newcommand{\aff}{\mathop{\bf aff}}
+\newcommand{\cl}{\mathop{\bf cl}}
+\newcommand{\intr}{\mathop{\bf int}}
+\newcommand{\relint}{\mathop{\bf rel int}}
+\newcommand{\bd}{\mathop{\bf bd}}
+\newcommand{\vect}{\mathop{\bf vec}}
+\newcommand{\dsp}{\displaystyle}
+\newcommand{\foequal}{\simeq}
+\newcommand{\prox}{{\bf prox}}
+\newcommand{\conj}{{\bf conj}}
+
+% variables
+\newcommand{\eps}{\varepsilon}
+
+\newcommand{\xopt}{x^{\rm opt}}
+\newcommand{\setindicator}{{\bf 1}}
+\newcommand{\indicator}[1]{{\bf 1}(#1)}
+
+% for matrices
+\newcommand{\sym}{\mathbf{S}}
+
+% for statistics
+\newcommand{\NA}{\texttt{unknown}}
+\newcommand{\huber}{\mathop{\bf huber}}
+\newcommand{\logistic}{\mathop{\textup{logistic}}}
+\newcommand{\sort}{\mathop{\bf sort}}
+\newcommand{\round}{\mathop{\bf round}}
+
+% optimization
+\newcommand{\grad}{\nabla}
+\newcommand{\ip}[2]{\left\langle #1, \, #2 \right\rangle}
+\newcommand{\ipa}[2]{\langle #1, \, #2 \rangle}
+% optimization problems
+\newcommand{\minimize}{\text{minimize}}
+\newcommand{\maximize}{\text{maximize}}
+\newcommand{\st}{\text{subject to}}
+\newcommand{\argmax}{\mathop{\rm argmax}}
+\newcommand{\argmin}{\mathop{\rm argmin}}
+
+% for conciseness
+\newcommand{\half}{(1/2)}
+\renewcommand{\exp}[1]{\mathop{\textup{exp}}\left(#1\right)}
+
+% boolean indicator
+% \usepackage{stmaryrd}
+% \newcommand{\bool}[1]{\llbracket#1\rrbracket}
+\usepackage{bbm}
+\newcommand{\bool}[1]{\mathbbm{1}(#1)}
+% \newcommand{\bool}[1]{[[#1]]}
+\newcommand{\err}{{\bf error}}
+
+% theorems
+\theoremstyle{definition} % don't italicize theorems
+% \newtheorem{theorem}{Theorem}
+% \newtheorem{lemma}{Lemma}
+% \newtheorem{corollary}{Corollary}
+% \newtheorem{definition}{Definition}
+
+% figures
+\def\figbox#1{\framebox[\hsize]{\hfil\parbox{0.9\hsize}{#1}}}
+% figure size
+\makeatletter
+\newlength \figwidth
+\if@twocolumn
+  \setlength \figwidth {0.9\columnwidth}
+\else
+  \setlength \figwidth {0.5\textwidth}
+\fi
+\makeatother
+
+% \showthe\figwidth
+
+% \newcommand{\cfh}[2]{
+% 	\begin{centering}
+% 	\begin{figure}[H]
+% 	\includegraphics[#2]{#1}
+% 	\end{figure}
+% 	\end{centering}
+% }
+
+\newcommand{\cfh}[2][1]{
+\begin{centering}
+\begin{figure}[H]
+\includegraphics[height=#1\textheight]{\figures/#2}
+\end{figure}
+\end{centering}
+}
+\newcommand{\cfw}[2][1]{
+\begin{centering}
+\begin{figure}[H]
+\includegraphics[width=#1\textwidth]{\figures/#2}
+\end{figure}
+\end{centering}
+}
+
+%%% citations
+\newcommand{\citet}[1]{\footnotesize{\textnormal{[#1]}}}
+
+%%% solutions
+% \makeatletter
+% \newenvironment{hwsolution}{%
+% \ifdefined \makesolution
+% \paragraph{Solution.}
+% }{\fi}
+% \makeatother
+
+%%% margins
+% usage: to move text 1em left and 2em up,
+% \begin{changemargin}{-1em}{-2em} text \end{changemargin}
+\newenvironment{changemargin}[2]{%
+\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{#1}%
+\setlength{\rightmargin}{#2}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{\parskip}%
+}%
+\item[]}{\end{list}}
