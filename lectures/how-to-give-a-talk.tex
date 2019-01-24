@@ -5,6 +5,8 @@
 \newcommand{\figures}{\home/figures}
 \input formatting.tex
 \input defs.tex
+\usepackage{hyperref}
+\hypersetup{colorlinks=true}
 
 % \mode<handout>
 % %\mode<presentation>
@@ -80,14 +82,15 @@ pro tips:
 
 state your contribution
 \bit
-\item so audience understands what you did (and now can decide to pay attention or not)
-\item maybe a theorem, maybe a picture, maybe a sentence or two
+\item so audience understands what you did \\
+(and can decide to pay attention or not)
+\item maybe a theorem, maybe a picture, maybe in words
 \item might require introducing some key definitions
 \eit
 
 pro tips:
 \bit
-\item leave caveats for later (but mention now if they're major or minor caveats)
+\item leave caveats for later \\ (but mention now if they're major or minor caveats)
 \item no one will listen any more if this part is confusing
 \eit
 
@@ -98,7 +101,8 @@ pro tips:
 why compare to related work?
 \bit
 \item shows audience how hard the problem is
-\item helps audience understand what you did (and what you didn't do)
+\item helps audience understand what you did \\
+(and what you didn't do)
 \item keeps your colleagues feeling collegial
 \eit
 
@@ -119,8 +123,8 @@ pro tips:
 \bit
 \item this section is usually longest
 \item divide into subsections to explain parts of your approach
-\item by the end, the audience should understand \emph{why} your idea works
-\item use \emph{as little} technical machinery as possible to make that happen
+\item by the end, the audience understands \emph{why} your idea works
+\item use \emph{as little} technical machinery as possible
 \item provide intuition
 \eit
 
@@ -140,7 +144,8 @@ pro tips:
 \item make it clear you have technical chops
 \item make the experts think you're smart
 \item but none of this matters
-\item because the audience already understands the important ideas
+\item because the audience already understands
+\item the important ideas
 \eit
 
 pro tips:
@@ -175,8 +180,7 @@ pro tips:
 
 \begin{frame}{Know your audience}
 
-\bit
-\item imagine your audience
+imagine your audience
 \bit
 \item what do they know already? what will they find surprising?
 \item often helps to imagine writing the talk for \emph{one particular person} who you know well
@@ -184,13 +188,11 @@ pro tips:
 \item (while listening to a talk, \emph{be} the person giving feedback)
 \eit
 
-\item it's ok to lose (some of) your audience
+it's ok to lose (some of) your audience
 \bit
 \item but you should plan for \emph{who} you'll lose and \emph{when} you'll lose them
 \item generally, everyone should understand everything except for the ``gory details''
 \item afterwards, tell people when to start paying attention again
-\eit
-
 \eit
 
 \end{frame}
@@ -210,8 +212,8 @@ pro tips:
 
 technology
 \bit
-\item \LaTeX / beamer presentations are common in Optimization
-\item powerpoint / keynote are more common in other parts of Machine learning
+\item \LaTeX / beamer presentations are common in optimization
+\item powerpoint / keynote more common in machine learning
 \item google slides for collaborative development
 \item theorists can make slides that contain only words, equations, and plots
 \item systems presentations usually come with fancy pictures and animations
@@ -231,7 +233,10 @@ length
 
 words
 \bit
-\item don't overwhelm the audience with reading
+\item brevity is the soul of wit
+\item don't distract your audience
+\item use bullets, not paragraphs
+\item beware of line breaks
 \item pick a convention and stick to it
 \bit \item capitalization, punctuation, phrases vs sentences, etc \eit
 \eit
@@ -239,7 +244,7 @@ words
 equations
 \bit
 \item define your terms
-\item use as few terms as possible
+\item define as little as possible
 \item use words instead of symbols where possible
 \eit
 \end{frame}
@@ -248,16 +253,26 @@ equations
 
 animations
 \bit
-\item have semantic meaning
+\item must have semantic meaning
 \eit
 
 delivery
 \bit
 \item speak slowly and clearly
 \item require the audience to ask questions
-\item show that you're a human (humor, look at audience, ask questions, stop to think)
+\item show that you're a human \\
+(humor, look at audience, ask questions, stop to think)
 \item get ready for improvisation!
 \eit
+
+\end{frame}
+
+\begin{frame}{More resources}
+
+  \bit
+  \item \href{http://www.americanscientist.org/issues/id.877,y.0,no.,content.true,page.1,css.print/issue.aspx}{scientific writing}
+  \item \href{http://acmg.seas.harvard.edu/education/presentations/carlton_presentations.pdf}{presentations}
+  \eit
 
 \end{frame}
 
@@ -265,12 +280,61 @@ delivery
 
 \begin{frame}{Reviews}
 
+five paragraphs
 \bit
-\item summarize the paper in your own words
-\item situate relative to related work
-\item what's good
-\item high level criticisms and major flaws
+\item summarize the paper
+\item high level (subjective) evaluation
+\item high level criticisms
 \item detailed line-by-line comments
+\item summary of review
+\eit
+
+\end{frame}
+
+\begin{frame}{Summarize the paper}
+
+objective description of the paper
+\bit
+\item explain the idea of the paper and its contributions
+\item use your own words (so the authors can learn something!)
+\item be neutral
+\eit
+
+\end{frame}
+
+\begin{frame}{High level evaluation}
+
+sujective comments on the paper
+\bit
+\item is it well written?
+\item is it original or incremental?
+\item are the claims supported by theory/experiment?
+\item who will be interested in these results?
+\eit
+
+\end{frame}
+
+\begin{frame}{High level criticisms}
+
+(more) objective criticisms
+\bit
+\item does the approach make sense?
+\item are there major errors or omissions?
+\item are the claims supported by evidence?
+\item provide a suggested \emph{fix} for every problem you identify
+\item be polite!
+\eit
+
+\end{frame}
+
+\begin{frame}{Line by line comments}
+
+moving line by line,
+\bit
+\item when were you confused?
+\item were there mistakes in notation, typos, errors, grammatical mistakes?
+\item were any figures difficult to understand?
+\item missing references?
 \eit
 
 \end{frame}
@@ -282,7 +346,8 @@ delivery
 \bit
 \item register
 \item sign up for slack
-\item mark 3 papers you'd like to present on \href{https://docs.google.com/spreadsheets/d/1eSJn0_ANEXfOsZZrYwHoQ6F00FKBLz4olbKVtOLoE40/edit#gid=93392279}{paper selection google doc}
+\item mark 3 papers you'd like to present on \\
+\href{https://docs.google.com/spreadsheets/d/1eSJn0_ANEXfOsZZrYwHoQ6F00FKBLz4olbKVtOLoE40}{paper selection google doc}
 \eit
 
 \end{frame}
