@@ -38,7 +38,7 @@ contact her by email at udell@cornell.edu to set up an appointment.
 # Course format and requirements
 
 Students are required to attend class, with at most two absences.
-(Up to two classes may also be attended remotely via [Zoom](https://zoom.us/j/7221862735)
+(Up to two classes may also be attended remotely via [Zoom](https://cornell.zoom.us/j/2447222620)
 by prior arrangement with the instructor.
 Students at Cornell Tech may attend all classes remotely.)
 
