@@ -71,6 +71,8 @@ to write fewer reviews,
 present only one paper,
 and will not be required to complete the research project.
 The quiz requirement will be the same.
+Students may audit the class in exceptional circumstances with permission of the instructor.
+Auditors will still generally be required to complete the same work as those taking the class for one credit.
 
 # Schedule
 
