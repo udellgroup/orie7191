@@ -77,10 +77,9 @@ Auditors will still generally be required to complete the same work as those tak
 # Schedule
 
 [This google doc serves as our schedule.](https://docs.google.com/spreadsheets/d/1eSJn0_ANEXfOsZZrYwHoQ6F00FKBLz4olbKVtOLoE40/edit?usp=sharing)
-Sign up for presentation slots on the google doc
-by adding your names and a link to the paper you'll present.
-(Make sure not to choose a paper someone else has already picked!)
-We may spend more or less time on a topic depending on student interest.
+Choose the paper you'd like to present on the second tab of the spreadsheet by midnight Friday 1/25. 
+Your netID should appear once in each column; it's ok if there are several comma-separated netIDs in the same cell.
+Papers will be assigned by the end of January.
 
 # Reading
 
