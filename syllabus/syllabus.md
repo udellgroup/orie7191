@@ -26,7 +26,7 @@ in addition to written reports.
 # Logistics
 
 * **When:** 11:40 - 12:55 TTh
-* **Where:** Hollister Hall 372 or via [Zoom](https://zoom.us/j/7221862735)
+* **Where:** Hollister Hall 372 or via [Zoom](https://cornell.zoom.us/j/2447222620)
 * [Quiz](https://goo.gl/forms/yOKLIbzP68M0qac52) (same link for all quizzes)
 * [CMT](https://cmt3.research.microsoft.com/ORIE7191S2019) for paper reviews and peer reviews
 * [Slack](https://join.slack.com/t/orie7191/signup) (use your cornell.edu address)
@@ -39,7 +39,7 @@ contact her by email at udell@cornell.edu to set up an appointment.
 # Course format and requirements
 
 Students are required to attend class, with at most two absences.
-(Up to two classes may also be attended remotely via [Zoom](https://zoom.us/j/7221862735)
+(Up to two classes may also be attended remotely via [Zoom](https://cornell.zoom.us/j/2447222620)
 by prior arrangement with the instructor.
 Students at Cornell Tech may attend all classes remotely.)
 
@@ -241,5 +241,5 @@ bring
 setup
 * projector
 * camera
-* zoom
+* [zoom](https://cornell.zoom.us/j/2447222620)
 * share screen
