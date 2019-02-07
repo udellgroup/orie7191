@@ -224,3 +224,22 @@ Recent best papers at ICML/NIPS
 * Chouldechova: good fairness readings?
 * Andrew Wilson: more good papers
 -->
+
+# checklist for talks
+
+talks include
+* quiz
+* discussion questions
+
+before the talk
+* submit a PR to the class git repo with your slides
+
+bring
+* power
+* dongle (for HDMI or VGA)
+
+setup
+* projector
+* camera
+* zoom
+* share screen
