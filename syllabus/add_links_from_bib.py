@@ -187,5 +187,5 @@ if __name__ == '__main__':
 	mdfile = sys.argv[1]
 	bibfile = sys.argv[2]
 	papers = extract_papers(bibfile)
-	# insert_links(mdfile, lambda bibref: format_citation(bibref, papers))
-	print_papers_only(mdfile, lambda bibref: format_paper(bibref, papers))
+	insert_links(mdfile, lambda bibref: format_citation(bibref, papers))
+	# print_papers_only(mdfile, lambda bibref: format_paper(bibref, papers))

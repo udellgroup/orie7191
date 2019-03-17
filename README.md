@@ -71,15 +71,14 @@ to write fewer reviews,
 present only one paper,
 and will not be required to complete the research project.
 The quiz requirement will be the same.
-Students may audit the class in exceptional circumstances with permission of the instructor.
-Auditors will still generally be required to complete the same work as those taking the class for one credit.
 
 # Schedule
 
 [This google doc serves as our schedule.](https://docs.google.com/spreadsheets/d/1eSJn0_ANEXfOsZZrYwHoQ6F00FKBLz4olbKVtOLoE40/edit?usp=sharing)
-Choose the paper you'd like to present on the second tab of the spreadsheet by midnight Friday 1/25.
-Your netID should appear once in each column; it's ok if there are several comma-separated netIDs in the same cell.
-Papers will be assigned by the end of January.
+Sign up for presentation slots on the google doc
+by adding your names and a link to the paper you'll present.
+(Make sure not to choose a paper someone else has already picked!)
+We may spend more or less time on a topic depending on student interest.
 
 # Reading
 
@@ -119,6 +118,7 @@ of any putative solution relative to the true optimal solution.
 * finding local minima efficiently: [Lee et al. 2016](http://www.jmlr.org/proceedings/papers/v49/lee16.pdf) shows GD only converges to minimizers (not saddle points), and [Lee et al. 2017](https://arxiv.org/abs/1710.07406) extends the result to other first order methods
 * [Gunasekar et al. 2017](http://papers.nips.cc/paper/7195-implicit-regularization-in-matrix-factorization.pdf) Gradient descent on factored formulation of matrix completion implicitly regularized the nuclear norm
 * [Bhojanapalli, Neyshabur, and Srebro 2016](http://papers.nips.cc/paper/6271-global-optimality-of-local-search-for-low-rank-matrix-recovery.pdf) [Ge, Lee, and Ma 2016](http://papers.nips.cc/paper/6048-matrix-completion-has-no-spurious-local-minimum.pdf) The factored formulation of matrix completion from incoherent measurements has no spurious local minima
+* [Waldspurger and Waters 2018](https://arxiv.org/abs/1812.03046) ...but only if the rank is high enough
 * [Ma et al. 2017](https://arxiv.org/pdf/1711.10467.pdf) Gradient descent (implicitly) imposes regularization for a wide variety of statistical models
 
 <!-- Streaming low rank optimization
@@ -137,7 +137,7 @@ What properties of deep nets make them easy or hard to optimize?
 * [Ian Goodfellow, Oriol Vinyals, and Andrew Saxe 2015](http://arxiv.org/abs/1412.6544) The loss surface looks convex on the path from the initial to final SGD iterate
 
 Is optimization enough? Is SGD necessary to provide implicit regularization?
-* [Hardt, Recht, and Singer 2015](???) Stability of SGD means that good solutions found quickly should generalize well
+* [Hardt, Recht, and Singer 2015](https://arxiv.org/pdf/1509.01240.pdf) Stability of SGD means that good solutions found quickly should generalize well
 * [Keskar et al. 2016](???) Large batch training and sharp minima
 * [Hoffer, Hubara, and Soudry 2017](???) A proposal to decrease the generalization gap when using large batch sizes, proposing different explanation than [Keskar et al. 2016](???)
 * [Rahimi and Recht 2009](http://papers.nips.cc/paper/3495-weighted-sums-of-random-kitchen-sinks-replacing-minimization-with) + [Rahimi Test of Time Talk at NeurIPS 2017](https://www.youtube.com/watch?v=Qi1Yry33TQE)
@@ -178,7 +178,7 @@ Other interesting ideas connecting optimization and deep learning
 
 * [Recht 2018](https://arxiv.org/abs/1806.09460) Reinforcement Learning: connections with continuous control.
 * Also consider [the blog posts on this topic](http://www.argmin.net/2018/06/25/outsider-rl/), which are even nicer to read
-* See also [Bertsimas 2018](http://web.mit.edu/dimitrib/www/RLbook.html) book on Reinforcement Learning and Optimal Control
+* See also [Bertsekas 2018](http://web.mit.edu/dimitrib/www/RLbook.html) book on Reinforcement Learning and Optimal Control
 
 ## Optimization for Trustworthy Machine Learning
 
